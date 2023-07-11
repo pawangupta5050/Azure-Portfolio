@@ -195,7 +195,7 @@ body {
     margin: auto;
     object-fit: contain;
     object-position: right;
-    border-radius: 50%;
+    border-radius: 0 0 30% 30% ;
 }
 
 /* ################### Category ###################### */
@@ -280,7 +280,7 @@ body {
     top: 50%;
 }
 
-/* ################# Food Menu ################# */
+/* ################# Menu ################# */
 
 .menu {
     padding: 0 0 50px 0;

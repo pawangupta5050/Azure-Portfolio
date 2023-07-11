@@ -67,7 +67,7 @@
         <div class="about-content container">
             <div class="about-text">
                 <p class="small">About Me</p>
-                <h2>Fullstack Developer</h2>
+                <h2><span id="typed-element"></span></h2>
                 <p>Highly skilled, competent, and diligent individual, I excel in full-stack development, specializing
                     in web applications (MERN or MEAN / ASP.NET), native mobile apps (Android and iOS), and
                     cross-platform apps (React Native, Angular, Flutter). Additionally, I have extensive experience in
@@ -79,7 +79,7 @@
 
             </div>
             <div class="about-img">
-                <img src="./img/pawan-profile.png" alt="About image of food">
+                <img src="./img/pawan-profile2.png" alt="About image of food">
             </div>
         </div>
     </section>
@@ -382,8 +382,10 @@
             <div class="social-links">
                 <a href="https://github.com/pawangupta5050" class="social-link" target="_blank"><i
                         class="fa-brands fa-2x fa-github text-light"></i></a>
-                <a href="https://twitter.com/Pawangupta5050" class="social-link" target="_blank"><i class="fa-brands fa-2x fa-twitter text-light"></i></a>
-                <a href="https://www.linkedin.com/in/pawangupta20/" class="social-link" target="_blank"><i class="fa-brands fa-2x fa-linkedin-in text-light"></i></a>
+                <a href="https://twitter.com/Pawangupta5050" class="social-link" target="_blank"><i
+                        class="fa-brands fa-2x fa-twitter text-light"></i></a>
+                <a href="https://www.linkedin.com/in/pawangupta20/" class="social-link" target="_blank"><i
+                        class="fa-brands fa-2x fa-linkedin-in text-light"></i></a>
             </div>
             <p class="text-light">Copyrights &copy; 2023 Pawan Gupta. all rights reserved</p>
         </div>
@@ -393,6 +395,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#typed-element', {
+            strings: [ 'YouTuber', 'Frontend Developer', 'Backend Developer'],
+            typeSpeed: 100,
+        });
+    </script>
 
 </body>
 
